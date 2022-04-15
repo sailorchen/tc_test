@@ -1,0 +1,6 @@
+requests
+pymysql
+pytest
+PyYAML
+allure-pytest
+numpy

@@ -1,0 +1,15 @@
+#数据库配置相关信息
+stage:
+  db_host: "127.0.0.1"
+  db_user: "root"
+  db_password: "test"
+  db_charset: "utf-8"
+  db_port: "3306"
+
+uat:
+  db_host: "192.168.10.20"
+  db_user: "root"
+  db_password: "123456"
+  db_charset: "utf-8"
+  db_port: "3307"
+

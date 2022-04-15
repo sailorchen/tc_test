@@ -1,0 +1,15 @@
+#环境配置相关信息
+log_level: "debug"
+log_extension: ".log"
+
+stage:
+  host: "https://janus-stage.tenclass.com"
+  shop_code: "00001"
+  user_name: "stage1"
+  password: "name1"
+
+uat:
+  host: "https://janus-uat.tenclass.com"
+  shop_code: "nwb540fd11e8063c"
+  user_name: "uat1"
+  password: "name2"

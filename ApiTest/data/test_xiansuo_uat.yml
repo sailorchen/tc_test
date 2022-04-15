@@ -1,0 +1,30 @@
+#线索管理常用搜索功能展示
+---
+#测试用例名称
+"case_name": "按照用户ID搜索"
+#url地址
+"url": "/ucrm/admin/api/v1/bussiness/list"
+#data
+"data":
+  limit: "10"
+  offset: "0"
+  uid: "508249"
+#期望结果
+"except":
+  code: 200
+  msg: "操作成功"
+---
+"case_name": "按照课程信息搜索"
+#url地址
+"url": "/ucrm/admin/api/v1/bussiness/list"
+#data
+"data":
+  limit: "10"
+  offset: "0"
+  course_id: "3611"
+  training_camp_id: 1562
+  training_camp_number: 11
+#期望结果
+"except":
+  code: 200
+  msg: "操作成功"
